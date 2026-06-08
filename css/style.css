@@ -23,10 +23,21 @@ h1 {
 /* =================
 =====Layout===== */
 
+.container {
+  width: 90%;
+  max-width: 900px;
+  margin: 0 auto;
+  /* border: 1px solid magenta; */
+}
+
+.container-nav {
+  display: flex;
+  justify-content: space-between;
+}
+
 header {
   padding: 2em 0;
   background: #f8f8f8;
-  text-align: center;
 }
 
 /* navigation */
@@ -39,7 +50,7 @@ nav ul {
 }
 
 nav li {
-  margin: 0 1em;
+  margin-left: 1em;
 }
 
 nav a {
